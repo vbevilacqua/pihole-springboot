@@ -8,12 +8,12 @@ This project basically collects all of the URLs from filterlists and returns in 
 - [ ] Make it work without Springboot
 
 ## Artifact from Springboot
-- Time to create package: 
- -- 1 -> 16.761 seconds
- -- 2 -> 17.758 seconds
- -- 3 -> 16.701 seconds
- -- 4 -> 15.164 seconds
- -- 5 -> 15.969 seconds
- -- average: 16.4706 seconds
+* Time to create package: 
+ * 1 -> 16.761 seconds
+ * 2 -> 17.758 seconds
+ * 3 -> 16.701 seconds
+ * 4 -> 15.164 seconds
+ * 5 -> 15.969 seconds
+ * average: 16.4706 seconds
 - Size: 19.3MB
 - Memory utilization: 

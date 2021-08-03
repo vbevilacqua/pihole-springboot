@@ -34,7 +34,7 @@ public class UrlController {
     @GetMapping
     public ResponseEntity<String> getUrls() throws JsonProcessingException {
         var urls = new ArrayList<String>();
-        for(int i = 1; i < 100; i++) {
+        for(int i = 1; i < 2519; i++) {
             Request request = getRequest(i);
             urls.addAll(processRequest(request));
         }

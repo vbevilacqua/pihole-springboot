@@ -5,7 +5,7 @@ This project basically collects all of the URLs from filterlists and returns in 
 
 - [x] Make it work with Springboot
 - [x] Code applying TDD
-- [ ] Wrap with Docker container
+- [x] Wrap with Docker container
 - [ ] Make it work without Springboot
 
 ## Artifact from Springboot

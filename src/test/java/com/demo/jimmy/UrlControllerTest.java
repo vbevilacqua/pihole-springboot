@@ -1,11 +1,9 @@
 package com.demo.jimmy;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.anyString;
 
-import java.io.Console;
 import java.util.List;
 
 import com.demo.jimmy.controller.UrlController;
@@ -61,10 +59,8 @@ public class UrlControllerTest {
 
         var result = controller.getUrls();
         assertEquals(HttpStatus.NOT_FOUND, result.getStatusCode());
-        assertTrue(result.getBody() == null);
+        assertNull(result.getBody());
     }
-
-    //TODO: Test if request is not found
 
     private Request mockRequest(){
         return new Request(List.of(new ViewUrl("https://280blocker.net/files/280blocker_adblock.txt")));
